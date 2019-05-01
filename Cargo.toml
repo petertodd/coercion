@@ -1,0 +1,15 @@
+[package]
+name = "coercion"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+authors = ["Peter Todd <pete@petertodd.org>"]
+edition = "2018"
+repository = "https://github.com/petertodd/coercion/"
+documentation = "https://docs.rs/crate/coercion"
+description = "In-place coercions between types of the same size and alignment"
+
+[dependencies]
+
+[features]
+nightly = ["maybe_uninit"]
+maybe_uninit = []
